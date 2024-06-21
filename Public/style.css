@@ -1,0 +1,564 @@
+/* *{
+    margin: 0;
+    padding: 0;
+} */
+
+
+.top{
+    background-image: url("projectImages/party.png");
+    background-repeat: no-repeat;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    height: 90vh;
+    object-fit: cover;
+}
+.logo{
+  margin-left: 10rem;
+}
+
+.nav-item{
+  border-top: 4px solid #ffaa0000;
+
+}
+.navbartop:hover{
+  border-top: 4px solid #ffaa00;
+
+
+}
+
+/* .nav img{
+  margin-top:10px ;
+}
+.nav ul {
+    list-style-type: none;
+    margin-top: 5px;
+    margin-left:20% ;
+    margin-bottom:2% ;
+    overflow: hidden;
+    position: relative;
+  }
+  .nav #black{
+    background-color: #281923;
+    opacity: 61%;
+  } 
+  .nav #red{
+    
+    background-color: #A80E0E;
+    opacity: 100%;
+    
+  }
+  
+  .nav li {
+    float: left;
+  }
+  
+  .nav li a {
+    display: flex;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-top: 4px solid rgba(255, 255, 255, 0);
+  }
+  
+  .nav li a:hover {
+    border-top: 4px solid #FFAA00;
+  }
+
+ .nav{
+   display: flex;
+   position: fixed;
+   width: 100%;
+ } */
+
+.shape{
+  -webkit-clip-path: polygon(99% 69%, 79% 49%, 100% 30%, 0 28%, 18% 51%, 0 70%);
+clip-path: polygon(99% 69%, 79% 49%, 100% 30%, 0 28%, 18% 51%, 0 70%);
+background-color: #FFAA00;
+height: 300px;
+width: 500px;
+}
+.shape2{
+  -webkit-clip-path: polygon(0 0, 0% 100%, 100% 56%);
+  clip-path: polygon(0 0, 0% 100%, 100% 56%);
+  background-color: #A80E0E;
+  height: 250px;
+width: 500px;
+}
+
+.party{
+  margin-top: 15%;
+}
+.h1size{
+  font-size: 50px;
+}
+.h3pos{
+  padding:20%;
+  font-size: 30px;
+  font-weight: 200;
+}
+.h2pos{
+  padding:20%;
+}
+
+
+.delivery #delivery{
+
+    background-color: #FFAA00;
+    padding-left: 10rem;
+    padding-right: 10rem;
+        
+} 
+
+.Order-Now{
+    background-color: #FFAA00;
+    color: #A80E0E;
+    border-radius: 16px;
+    border-color: #ffaa00;
+    border-style: none;
+    font-family: "Roboto";
+    padding: 5px 20px;
+}
+
+.Order-Now:hover{
+  background-color: #ffc34b;
+}
+
+
+.white{
+    color: white;
+}
+.red{
+  color: #A80E0E;
+  margin-left: 50%;
+  font-size: 35px;
+  
+}
+p, a{
+  font-family: "Montserrat";
+}
+h1,h2,h3,h4,h5{
+  font-family: "Roboto";
+}
+
+.delivery{
+  margin-top: 20rem;
+}
+.delpos{
+  margin-left: 40%;
+  margin-top: 30px;
+  font-size: 20px;
+}
+
+.hlink{
+  margin:  0px 75px 0px 75px;
+  text-decoration: none;
+  font-family: "Montserrat";
+  color: black;
+}
+.herf{
+  margin-left: 12%;
+  margin-top: 20px;
+}
+
+.pmid{
+  margin-left: 43%;
+  margin-top: 10px;
+  font-size: 20px;
+  
+  
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 5px;
+  /* margin: 0% 60% 0% 0%;
+  margin-left: 10rem; */
+
+}
+.card img{
+  width: 100%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.267);
+}
+
+/* .container {
+  padding: 2px 16px;
+} */
+.hlink2{
+  
+  text-decoration: none;
+  font-family: "Montserrat";
+  color:  black;
+  font-weight: 200;
+}
+.button2{
+  background-color: #FFAA00;
+    color: black;
+    border-radius: 12px;
+    border-color: #ffaa00;
+    border-style: none;
+    font-family: "Roboto";
+    padding: 5px 20px;
+}
+.button2:hover{
+  background-color: #ffc34b;
+}
+
+.button3{
+  background-color: #FFAA00;
+    color: white;
+    border-radius: 12px;
+    border-color: #ffaa00;
+    border-style: none;
+    font-family: "Roboto";
+    padding: 5px 20px;
+}
+.button3:hover{
+  background-color: #ffc34b;
+}
+
+.pricepos{
+  display: inline-block;
+}
+
+#Testimonials{
+  margin: 10% 10rem;
+}
+
+.Testimonials{
+  
+  margin-top: 10px;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  display: flex;
+  
+}
+
+.Testimonials p{
+  margin: 20% 0%;
+  margin-left:2rem ;
+}
+
+
+#delivery{
+  display: flex;
+}
+.tripos{
+  margin-top: 10%;
+}
+.tripara{
+  padding-left: 22%;
+  padding-right: 22%;
+}
+.info{
+   background-color: #A80E0E;
+  display: grid;
+  grid-auto-flow: column ;
+}
+
+
+
+.container2 ul{
+  list-style-type: none;
+ 
+  
+}
+.container2 li{
+  display:flex;
+  
+}
+
+
+.container2{
+  background-color: #A80E0E;
+  }
+  
+
+#Gallery{
+  margin-top: 3rem;
+}
+
+
+
+.grid-container{
+  margin: 0rem 10rem;
+  display: inline-grid;
+  grid-template-columns: 25% 25% 25%;
+  column-gap: 5%;
+
+}
+
+.grid-container1{
+  
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 0.25rem;
+  
+
+}
+
+.grid-item ul{
+  list-style-type: none;
+}
+.grid-item h3{
+  margin-bottom: 20px;
+  color: #A80E0E;
+  
+}
+.grid-item a{
+    text-decoration: none;
+    font-family: "Montserrat";
+    color: black;
+    font-weight: 300;
+}
+
+.grid-item{
+  padding: 20px;
+  text-align: left;
+}
+.contact{
+  font-weight: 200;
+}
+.soicals{
+  margin:  0px 30px 0px 30px;
+  text-decoration: none;
+  font-family: "Montserrat";
+  color: white;
+}
+.herf2{
+  margin-right: 150px;
+  margin-top: 20px;
+}
+
+/*
+detail.html 
+*/
+.red2{
+  color: #A80E0E;
+}
+
+.center{
+
+  margin: 0rem 10rem;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+tr:hover{
+  background-color:#DDD;
+}
+th, td {
+  text-align: left;
+  padding: 8px;
+  font-family: "Roboto";
+}
+
+table,tr,td{
+  border: 1px solid;
+  border-collapse: collapse;
+  border-color: #DDD;
+  font-family: "Roboto";
+}
+
+.nav-bg{
+
+  background-color: #281923;
+  opacity: 61%;
+  
+}
+
+.meal{
+  padding-top:6rem ;
+  display: grid;
+  grid-auto-flow: column;
+  grid-column-gap: 2rem;
+
+}
+
+.meal img{
+  max-height: 25rem;
+
+}
+
+.meal-div{
+  display: grid;
+  grid-auto-flow: row;
+  grid-row-gap: 10px;
+}
+
+.btn-div button:hover,.btn-div input[type=number]:hover{
+  background-color: #FFAA00;
+}
+.btn-div{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.btn-amount-div{
+  gap: 0; 
+  display: flex;
+  
+}
+
+.btn-div button,.btn-div input[type=number]{
+  border-radius:12px;
+  border-style:solid;
+  border-color: #FFAA00;
+  border-width: 3px;
+  background-color: white;
+  color: #A80E0E;
+  padding: 10px 25px;
+  font-family: "Roboto";
+  
+}
+
+
+.btn-div input[type=number]{
+  
+  width: 1rem;
+  
+  text-align: center;
+  
+}
+
+.btn-div #cart-btn{
+  padding: 5px 15px;
+  color: black;
+  background-color: #FFAA00;
+  /* margin-left: 10rem; */
+  border-radius:20px;
+
+}
+
+.btn-div #cart-btn:hover{
+ background-color: #fdd689;
+ border-color: #fdd689;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button
+ {-webkit-appearance: none;margin: 0;}
+
+
+label{
+  font-family: "Montserrat";
+}
+.reviewbtn{
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.formcolor{
+  background-color: #f2f2f2;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+}
+.fullnamesizing{
+  border-radius: 16px;
+  width: 90%;
+  height: 1.3rem;
+  padding-left: 10px;
+}
+.rev-h3{
+  margin-left:10rem ;
+}
+.rev-info{
+  margin-top:2rem;
+  flex: 2rem;
+}
+.rev-info h4{
+  margin-bottom: 3rem;
+}
+.rev-info h5{
+  margin-bottom: 3rem;
+}
+.reviewsizing{
+  width: 90%;
+  border-radius: 16px;
+  padding-left: 10px;
+}
+
+.reviewer{
+  display: flex;
+  flex: 2rem;
+  
+}
+.reviewer img{
+  border-radius: 12px;
+  box-shadow: 0px 10px 5px rgba(216, 216, 216, 0.452);
+  max-height: 25rem;
+  flex: 2rem;
+}
+
+.rangepos{
+  margin-top: 20px;
+}
+
+.range{
+  margin-top: 10px;
+}
+
+.revform{
+  
+}
+.namebar{
+  margin-top: 5px;
+}
+
+.submitpos{
+margin-top: 20px;
+margin-bottom: 20px;
+}
+
+#cart-num{
+  margin-left: 3px;
+  background-color: #FFAA00;
+  color: #A80E0E;
+}
+
+#showForm {
+  position:relative;
+  animation:animateright 0.4s}
+  @keyframes animateright{from{right:-300px;opacity:0} 
+  to{right:0;opacity:1}
+}
+
+
+#rev-error{
+  font-family: "Montserrat";
+  color: #A80E0E;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #A80E0E;
+  background-color: #FFAA00;
+  font-family: "Montserrat";
+
+}
+
+.nav-link {
+  display: block;
+  padding: 0.5rem 1rem;
+  color: #A80E0E;
+  text-decoration: none;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+}
+
+
+.pillfont{
+  font-size: 1.5rem;
+  font-family: "Roboto";
+
+}
+
+.nav-link:hover{
+  color: #A80E0E;
+}
+
+

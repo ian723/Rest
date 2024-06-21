@@ -1,0 +1,219 @@
+{% extends "base.njk" %}
+
+{% block content%}
+<div class="center meal">
+    <img src="projectImages\{{meals.image}}" alt="meal1">
+
+    <div class="meal-div">
+      <h1 class="red2">{{meals.title}}</h1>
+      <p>{{meals.price}} SAR</p>
+      <p>⭐{{meals.rating}} rating</p>
+      <p>{{meals.description}}</p>
+
+      <div>
+        <div class="btn-div">
+          <div class="btn-amount-div">
+            <button onclick="countdecr()">-</button>
+            <input type="number" id="counter" class="counter" name="count" value="1" min="1" max="99">
+            <button onclick="countincr()">+</button>
+          </div>
+          <button onclick="AddToCart()" id="cart-btn">add to cart</button>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <div class="space">
+    <div class="center">
+
+      <ul class="nav nav-pills mb-3 mt-3">
+        <li class="nav-item">
+          <a class="nav-link active" data-bs-toggle="pill" aria-current="page" href="#home" onclick="displayHome()"><strong class="pillfont">Description</strong></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" data-bs-toggle="pill" href="#reviews"><strong class="pillfont"  onclick="displayReview()">Reviews</strong></a>
+        </li>
+      </ul>
+      <div id="home" class="active">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi finibus, nisl non elementum bibendum, justo
+          lacus hendrerit mauris, in accumsan lacus nisl suscipit nulla. Donec ac sapien ipsum. Aliquam erat volutpat.
+          Donec scelerisque fermentum tempor. Maecenas et blandit quam, vel scelerisque tellus. Quisque aliquet mauris
+          metus, vitae euismod lectus varius sed. Vivamus lacinia nisl at erat efficitur varius.
+
+          Quisque nulla sapien, tristique eu ultricies nec, consequat nec elit. In mi tortor, luctus non volutpat vitae,
+          iaculis vel mauris. Proin porta magna a facilisis pharetra.
+        </p>
+          <div class="mt-0 ">
+            <h3>nutrition facts</h3>
+          <table >
+            <tr>
+              <td colspan="3"><strong>Supplement Fact</strong></td>
+            </tr>
+            <tr>
+              <td colspan="3"><strong>Serving Size:</strong> 1 Cookie(57 g)</td>
+            </tr>
+            <tr>
+              <td colspan="3"><strong>Serving Per Container:</strong></strong> 12</td>
+            </tr>
+            <tr>
+              <td></td>
+              <th>Amount Per Serving</th>
+              <th>%Daily Value</th>
+            </tr>
+            <tr>
+              <td>Calories</td>
+              <td>200</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Calories from Fat</td>
+              <td>70</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Total Fat</td>
+              <td>7 g</td>
+              <td>11%</td>
+            </tr>
+            <tr>
+              <td>Saturated Fat</td>
+              <td>4 g</td>
+              <td>20%</td>
+            </tr>
+            <tr>
+              <td>Trans Fat</td>
+              <td>0 g</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Cholesterol</td>
+              <td>0 mg</td>
+              <td>0%</td>
+            </tr>
+            <tr>
+              <td>Sodium</td>
+              <td>220 mg</td>
+              <td>9%</td>
+            </tr>
+            <tr>
+              <td>Total Carbohydrate</td>
+              <td>31 g</td>
+              <td>10%</td>
+            </tr>
+            <tr>
+              <td>Dietary Fiber</td>
+              <td>5 g</td>
+              <td>20%</td>
+            </tr>
+            <tr>
+              <td>Sugar</td>
+              <td>12 g</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Sugar Alcohol</td>
+              <td>0 g</td>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Protein</td>
+              <td>8 g</td>
+              <td>8%</td>
+            </tr>
+            <tr>
+              <td>Vitamin A</td>
+              <td></td>
+              <td>0%</td>
+            </tr>
+            <tr>
+              <td>Vitamin C</td>
+              <td></td>
+              <td>0%</td>
+            </tr>
+            <tr>
+              <td>Calcium</td>
+              <td></td>
+              <td>2%</td>
+            </tr>
+            <tr>
+              <td>Iron</td>
+              <td></td>
+              <td>10%</td>
+            </tr>
+            <tr>
+              <td colspan="3">* Percent Daily Values are based on a 2,000 calories diet. your daily values may be higher
+                or lower depending on your calorie needs</td>
+            </tr>
+
+
+
+          </table>
+          </div>
+          
+        </div>
+
+        <div id="reviews" >
+          <div class="reviewer">
+            <img src="projectImages/{{meals.reviews.image}}" alt="man eating burger">
+            <div class="center rev-info">
+              <h4 class="md-3">{{meals.reviews.reviewer_name}}</h4>
+              <h5 class="mt-3">{{meals.reviews.city}} - {{meals.reviews.date}} ⭐⭐⭐⭐⭐</h5>
+              <p>{{meals.reviews.review}}</p>
+            </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
+  <!--Review section-->
+  <form action="">
+    
+    
+    </div>
+    <div class="center revform">
+      <button type="button" class="Order-Now reviewbtn" onclick="showForm()">Add Your Review</button>
+
+      <div id="showForm">
+
+        <form action="" onsubmit="" id="Form">
+          <label for="file-input">Image</label>
+          <input type="file" name="file-input" id="">
+          <br>
+          <div class="rangepos">
+            <label for="range-input">Rate the Food</label>
+            <div></div>
+            <input type=range name="range-input" list=marks class="range">
+            <datalist id=marks>
+              <option value="0 to 20">0</option>
+              <option>20</option>
+              <option>40</option>
+              <option>60</option>
+              <option>80</option>
+              <option>100</option>
+            </datalist>
+          </div>
+          <br>
+          <label for="text-input">Name</label>
+          <div></div>
+          <input type="text" name="text-input" class="formcolor fullnamesizing namebar" id="Name-input"
+            placeholder="First and Last name">
+          <br>
+          <br>
+          <label for="text-area" class="rangepos">Review</label>
+          <div></div>
+          <div id="rev-error">Please type your review</div>
+          <textarea id="textArea-rev" name="textArea-input" class="formcolor reviewsizing range" cols="80" rows="13"
+            placeholder="Type your review here max 500 characters" onkeyup="lengthcal()" maxlength="500"></textarea>
+          <div><span id="rev-length">0</span>/500</div>
+
+          <br>
+          <input type="submit" class="button3 submitpos" onclick=" event.preventDefault();getFocus();SetNameInput();">
+        </form>
+      </div>
+    </div>
+
+    {% endblock %}

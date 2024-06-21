@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Challenge 03</title> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400&family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js"></script>
+
+
+</head>
+
+<body>
+
+  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div id="menu" class="top">
+    <!-- <div class="nav-div">
+      <nav class="nav">
+        <img src="projectImages/logo-White.svg" alt="logo-red" width="120px" height="80px">
+        <ul>
+          <li id="black"><a href="#">Home</a></li>
+          <li id="black"><a href="#menu">Menu</a></li>
+          <li id="black"><a href="#Gallery">Gallery</a></li>
+          <li id="black"><a href="#Testimonials">Testimonials</a></li>
+          <li id="black"><a href="#Contact-Us">Contact Us</a></li>
+          <li id="red"><a href="#">Search</a></li>
+          <li id="red"><a href="#">Profile</a></li>
+          <li id="red"><a href="#">Cart <div id="cart-num"> 0</div></a></li>
+        </ul>
+    </nav>
+  </div> -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark " style="opacity: 61%;">
+    <div class="container-fluid">
+      <img class="logo" src="projectImages/logo-White.svg" alt="logo-red" width="120px" height="80px">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 m-auto">
+        
+          <li class="nav-item navbartop p-2"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item navbartop p-2"><a href="#menu" class="nav-link">Menu</a></li>
+          <li class="nav-item navbartop p-2"><a href="#Gallery" class="nav-link">Gallery</a></li>
+          <li class="nav-item navbartop p-2"><a href="#Testimonials" class="nav-link">Testimonials</a></li>
+          <li class="nav-item navbartop p-2"><a href="#Contact-Us" class="nav-link">Contact Us</a></li>
+          <li class="nav-item navbartop bg-danger  p-2"><a href="#" class="nav-link">Search</a></li>
+          <li class="nav-item navbartop bg-danger  p-2"><a href="#" class="nav-link">Profile</a></li>
+          <li class="navbartop bg-danger py-3 px-2">
+            <button type="button" class="btn text-white" data-bs-toggle="modal" data-bs-target="#exampleModal">Cart <div id="cart-num" class="bg-warning text-danger text-center d-inline p-1"> 0</div></button>
+          </li>     
+        </ul>   
+        </div>
+    </div>
+  </nav>
+    <br>
+    <div class="party">
+      <h1 class="white h1size">Party Time</h1>
+        <div class="shape">
+          <h3 class="white h3pos">Buy any 2 burgers and get 1.5L Pepsi Free</h3>
+        </div>
+        <button class="Order-Now">Order Now</button>
+      </div>
+  </div>
+
+
+  <div class="delivery">
+      <h2 class="red">Want To Eat</h2>
+      <p class="delpos">Try out most delicious food and usually take minutes to deliver</p>
+      <div class="herf"><a href="#" class="hlink">pizza</a> <a href="#" class="hlink">fast food</a> <a href="#" class="hlink">cupcake</a> <a href="#" class="hlink">sandwich</a> <a href="#" class="hlink">spaghetti</a> <a href="#" class="hlink">burger</a></div>>
+      <div id="delivery">
+      <img class="img-fluid" src=" projectImages\delivery.png" alt="delivery">
+      <div class="tripos">
+      <div class="shape2"><h2 class="white h2pos">We guarantee 30 minutes delivery</h2></div>
+      <p class="white tripara">If you are having a meeting, working late at night and need an extra push</p>
+    </div>
+    </div>
+  </div>
+
+  
+  <section id="Gallery">
+    <div class="gallery">
+      <h2 class="red">Our Most Popular Recipes</h2>
+      <p class="pmid">Try our most delicious food and usually take minutes to deliver</p>
+
+      <div class="container">
+        <div class="row row-cols-md-4">
+          
+            <div class="col">
+        <a href="detail.html" class="hlink2">
+          <div class="card">
+            <img src=" projectImages\meal1.png" alt="meal1">
+            <div class="container1">
+              <p>⭐4.5 rating</p>
+              <p><strong>Best sandwich</strong></p>
+              <p>some descripton</p>
+            </a>
+                  <button onclick="incr()" class="button2">add to cart</button>
+                  <p class="pricepos">23.9 SAR</p>
+              </div>
+          </div>
+            </div>
+
+            <div class="col">
+        <a href="detail.html" class="hlink2">
+          <div class="card">
+            <img src=" projectImages\meal2.png" alt="meal1">
+            <div class="container1">
+              <p>⭐4.5 rating</p>
+              <p><strong>Burger</strong></p>
+              <p>some descripton</p>
+            </a>
+                  <button onclick="incr()" class="button2">add to cart</button>
+                  <p class="pricepos">25.9 SAR</p>
+              </div>
+          </div>
+            </div>
+            
+            <div class="col">
+        <a href="detail.html" class="hlink2">
+          <div class="card">
+            <img src=" projectImages\meal3.png" alt="meal1">
+            <div class="container1">
+              <p>⭐4.5 rating</p>
+              <p><strong>Burger Meal</strong></p>
+              <p>some descripton</p>
+            </a>
+                  <button onclick="incr()" class="button2">add to cart</button>
+                  <p class="pricepos">27.7 SAR</p>
+              </div>
+          </div>
+            </div>
+
+            <div class="col">
+        <a href="detail.html" class="hlink2">
+          <div class="card">
+            <img src=" projectImages\meal4.png" alt="meal1">
+            <div class="container1">
+              <p>⭐4.5 rating</p>
+              <p><strong>Best Deal Meal</strong></p>
+              <p>some descripton</p>
+            </a>
+                  <button onclick="incr()" class="button2">add to cart</button>
+                  <p class="pricepos">32.9 SAR</p>
+              </div>
+          </div>
+            </div>
+        </div>
+
+    </div>
+
+  </div>
+
+  <div class="container">
+
+  <div class="row row-cols-md-4">
+          
+    <div class="col">
+<a href="detail.html" class="hlink2">
+  <div class="card">
+    <img src=" projectImages\meal5.png" alt="meal1">
+    <div class="container1">
+      <p>⭐4.5 rating</p>
+      <p><strong>Chicken Burger</strong></p>
+      <p>some descripton</p>
+    </a>
+          <button onclick="incr()" class="button2">add to cart</button>
+          <p class="pricepos">19.4 SAR</p>
+      </div>
+  </div>
+    </div>
+
+    <div class="col">
+      <a href="detail.html" class="hlink2">
+        <div class="card">
+          <img src=" projectImages\meal6.png" alt="meal1">
+          <div class="container1">
+            <p>⭐4.5 rating</p>
+            <p><strong>Pizza</strong></p>
+            <p>some descripton</p>
+          </a>
+                <button onclick="incr()" class="button2">add to cart</button>
+                <p class="pricepos">28.5 SAR</p>
+            </div>
+        </div>
+          </div>
+
+  </div>
+</div>
+
+    </section>
+    
+  
+  
+  <section id="Testimonials">
+    <h2 class="red">Clients testimonials</h2>
+    
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <img src="projectImages\man-eating-burger.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="col my-auto">
+                <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ullam deserunt laborum, laboriosam veritatis quibusdam blanditiis dolor exercitationem velit commodi quae assumenda incidunt voluptas. Corporis ex nulla repellendus ullam nihi!</p>
+              </div>
+            </div>
+          </div>
+
+
+
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <img src="projectImages\man-eating-burger.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="col my-auto">
+                <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ullam deserunt laborum, laboriosam veritatis quibusdam blanditiis dolor exercitationem velit commodi quae assumenda incidunt voluptas. Corporis ex nulla repellendus ullam nihi!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row">
+              <div class="col">
+                <img src="projectImages\man-eating-burger.png" class="d-block w-100" alt="...">
+              </div>
+              <div class="col my-auto">
+                <p >Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ullam deserunt laborum, laboriosam veritatis quibusdam blanditiis dolor exercitationem velit commodi quae assumenda incidunt voluptas. Corporis ex nulla repellendus ullam nihi!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- <div class="Testimonials">
+      <img src=" projectImages\man-eating-burger.png" alt="man-eating-burger">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ullam deserunt laborum, laboriosam veritatis quibusdam blanditiis dolor exercitationem velit commodi quae assumenda incidunt voluptas. Corporis ex nulla repellendus ullam nihi!</p>
+    </div> -->
+  </section>
+
+
+  <section id="Contact-Us">
+    <div class="container2">
+      <div class="row row-cols-2">
+        <div class="col-4 m-auto">
+
+              <ul>
+                <li><p class="white">phone:<strong>+966-13-860-0000</p></li>
+                <li id="listE"><img src=" projectImages\clock.svg" alt="clock">
+                <p class="white contact">sun-thr 11:00 - 23:00
+      
+                  fri-sat 12:00-23
+                </p>
+            
+              </li>
+                
+                <li id="listE"><img src=" projectImages\placeholder.svg" alt="placeholder">
+                  <p class="white contact">123 KFUPM Students Mall
+      
+                    Dhahran 34464
+                  </p>
+                  
+                </li>
+                
+                <li class="herf2"><a href="#" class="soicals">facebook</a> <a href="#" class="soicals">Twitter</a> <a href="#" class="soicals">Instagram</a></li>
+              </ul>
+            </div>
+
+            <div class="col-8">
+              <img src=" projectImages\map.png" class="" alt="map" id="map">
+            </div>
+            
+          </div>
+        </div>
+        
+
+</section>
+  <div class="grid-container">
+
+    <div class="grid-item"><img src=" projectImages\logo-red.svg" alt="logo-red">
+      <br>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque ullam deserunt laborum, laboriosam veritatis quibusdam blanditiis dolor exercitationem velit commodi quae assumenda incidunt voluptas. Corporis ex nulla repellendus ullam nihi!</p>
+      </div>
+
+    <div class="grid-item"><h3>USEFUL LINKS</h3>
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#Testimonials">testimonials</a></li>
+        <li><a href="#Contact-Us">Contact Us</a></li>
+      </ul></div>
+
+    <div class="grid-item"><h3>INSTAGRAM FEEDS</h3><br>
+      <div class="grid-container1">
+        <div class="grid-item1"><a href="#"><img src="projectImages/meal1.png" alt="meal" width="150px" height="100px"></a></div>
+        <div class="grid-item1"><a href="#"><img src="projectImages/meal2.png" alt="meal" width="150px" height="100px"></a></div>
+        <div class="grid-item1"><a href="#"><img src="projectImages/meal3.png" alt="meal" width="150px" height="100px"></a></div>
+        <div class="grid-item1"><a href="#"><img src="projectImages/meal4.png" alt="meal" width="150px" height="100px"></a></div>
+        <div class="grid-item1"><a href="#"><img src="projectImages/meal5.png" alt="meal" width="150px" height="100px"></a></div>
+        <div class="grid-item1"><a href="#"><img src="projectImages/meal6.png" alt="meal" width="150px" height="100px"></a></div>
+        
+      </div>
+    </div>
+   
+      
+  </div>
+</body>
+
+</html>
