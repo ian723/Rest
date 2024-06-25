@@ -1,0 +1,40 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Node Modules
+node_modules/
+
+# Dependency directories
+jspm_packages/
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Environment Variables
+.env
+
+# MacOS files
+.DS_Store
+
+# Temporary files
+*.tmp
+*.temp
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*~
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Dist directory
+dist/
